@@ -1,7 +1,6 @@
-require "ruby-termkey/version"
+require 'ffi'
+require 'ruby-termkey/version'
 
-module Ruby
-  module Termkey
-    # Your code goes here...
-  end
+module Termkey
+  extend FFI::Library
 end
